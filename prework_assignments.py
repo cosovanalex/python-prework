@@ -3,6 +3,7 @@ from re import X
 
 
 def hello_name(user_name):
+    user_name = input("What is your name? ")
     """Display a greeting."""
     print(f"Hello {user_name.upper()}!")
 
